@@ -857,7 +857,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "Insert Feedback Comments",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -871,17 +871,26 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Data Flow"
+              "Insert Feedback Comments"
             ],
             "id": "79caf75f-4951-4252-8aa2-d1f2e520d5e2",
             "source": {
-              "x": 510,
-              "y": 350
+              "cell": "47bc5626-236b-4af8-b130-c1baf40ea13f"
             },
             "target": {
               "cell": "9c7f9061-c871-4dce-b91f-2e7d34086970",
               "port": "53d44601-7d57-4d94-bd87-b7c162e9c33b"
-            }
+            },
+            "vertices": [
+              {
+                "x": 550,
+                "y": 330
+              },
+              {
+                "x": 660,
+                "y": 330
+              }
+            ]
           }
         ]
       }
