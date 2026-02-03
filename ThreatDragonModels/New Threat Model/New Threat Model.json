@@ -38,6 +38,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 1,
             "ports": {
               "groups": {
                 "top": {
@@ -121,7 +122,6 @@
               ]
             },
             "id": "44d414b3-7e86-4b0a-b8ed-e2cf4a9a50a1",
-            "zIndex": 1,
             "data": {
               "type": "tm.Actor",
               "name": "Authorization Provider",
@@ -155,6 +155,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 2,
             "ports": {
               "groups": {
                 "top": {
@@ -238,7 +239,6 @@
               ]
             },
             "id": "95ff9148-043b-4697-bfa5-72cb1e0b8205",
-            "zIndex": 2,
             "data": {
               "type": "tm.Actor",
               "name": "LDAP",
@@ -272,6 +272,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 3,
             "ports": {
               "groups": {
                 "top": {
@@ -355,7 +356,6 @@
               ]
             },
             "id": "a6f342b6-35fa-4027-a79a-61373bf09e3e",
-            "zIndex": 3,
             "data": {
               "type": "tm.Actor",
               "name": "Web Application",
@@ -407,6 +407,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 4,
             "ports": {
               "groups": {
                 "top": {
@@ -490,7 +491,6 @@
               ]
             },
             "id": "08e968a4-27c5-463f-8631-4dc601ced1d9",
-            "zIndex": 4,
             "data": {
               "type": "tm.Actor",
               "name": "Browser Client",
@@ -517,13 +517,14 @@
                 "text": "SQL Database"
               },
               "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               }
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 5,
             "ports": {
               "groups": {
                 "top": {
@@ -607,7 +608,6 @@
               ]
             },
             "id": "e8709182-6ac5-410d-ae6e-142b8330d518",
-            "zIndex": 5,
             "data": {
               "type": "tm.Actor",
               "name": "SQL Database",
@@ -615,9 +615,34 @@
               "isTrustBoundary": false,
               "outOfScope": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "providesAuthentication": false,
-              "threats": []
+              "threats": [
+                {
+                  "id": "87962fc7-15ee-4c92-9778-3f5abd87fb63",
+                  "title": "Tampering With The Data Using The SQL Injection Attack",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "",
+                  "description": "No suggestions available for this context. Add one manually please",
+                  "mitigation": "",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 5,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "spoofing": 0,
+                "repudiation": 0
+              }
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           }
         ]
@@ -625,6 +650,6 @@
     ],
     "diagramTop": 3,
     "reviewer": "",
-    "threatTop": 2
+    "threatTop": 5
   }
 }
