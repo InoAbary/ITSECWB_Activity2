@@ -420,13 +420,6 @@
                 "spoofing": 2,
                 "repudiation": 0
               }
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           },
           {
@@ -566,12 +559,12 @@
           },
           {
             "position": {
-              "x": 599,
-              "y": 424
+              "x": 699,
+              "y": 414.0000000000004
             },
             "size": {
-              "width": 112.5,
-              "height": 60
+              "width": 280,
+              "height": 90
             },
             "attrs": {
               "text": {
@@ -697,6 +690,13 @@
                 "spoofing": 0,
                 "repudiation": 0
               }
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           },
           {
