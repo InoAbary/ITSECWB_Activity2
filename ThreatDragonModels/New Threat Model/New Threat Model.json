@@ -279,26 +279,46 @@
               "threats": [
                 {
                   "id": "9a56fd5c-ba06-414e-8f39-b8b3715b0c6a",
-                  "title": "Spoofing",
+                  "title": "Web Application Spoofing",
                   "status": "Open",
                   "severity": "TBD",
                   "type": "Spoofing",
-                  "description": "Provide a description for this threat",
-                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "description": "The web application may be spoofed by an attacker and this may lead to unauthorized access to the browser client.",
+                  "mitigation": "",
                   "modelType": "STRIDE",
                   "new": false,
                   "number": 10,
                   "score": ""
+                },
+                {
+                  "id": "ba993ec1-f502-40ac-96e7-bce87bbcea14",
+                  "title": "Missing Web Application Logging",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Repudiation",
+                  "description": "The web application claims that it did not receive data from a process on the other side of the trust boundary.",
+                  "mitigation": "Consider using logging or auditing to record the source, time and a summary of the received data.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 15,
+                  "score": ""
                 }
               ],
               "threatFrequency": {
-                "spoofing": 1,
+                "spoofing": 3,
                 "tampering": 0,
-                "repudiation": 0,
+                "repudiation": 1,
                 "informationDisclosure": 0,
                 "denialOfService": 0,
                 "elevationOfPrivilege": 0
               }
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           },
           {
@@ -896,10 +916,6 @@
               {
                 "x": 640,
                 "y": 390
-              },
-              {
-                "x": 570,
-                "y": 390
               }
             ]
           },
@@ -1285,6 +1301,6 @@
     ],
     "diagramTop": 4,
     "reviewer": "",
-    "threatTop": 14
+    "threatTop": 15
   }
 }
