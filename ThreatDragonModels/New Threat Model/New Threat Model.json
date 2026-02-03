@@ -1033,7 +1033,71 @@
               "cell": "4a111700-5c6b-4323-b860-4739f54b712b",
               "port": "5cc3ab29-57aa-471c-9a00-e0cf91610502"
             },
-            "vertices": []
+            "vertices": [
+              {
+                "x": 980,
+                "y": 290
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Success=1",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Success=1"
+            ],
+            "id": "797ea04b-f24e-4624-8a41-e40278df696c",
+            "source": {
+              "cell": "4a111700-5c6b-4323-b860-4739f54b712b"
+            },
+            "target": {
+              "cell": "9c7f9061-c871-4dce-b91f-2e7d34086970",
+              "port": "80ee1ac4-f6cc-4de8-8282-d558759480a8"
+            },
+            "vertices": [
+              {
+                "x": 1010,
+                "y": 400
+              },
+              {
+                "x": 970,
+                "y": 420
+              },
+              {
+                "x": 920,
+                "y": 420
+              }
+            ]
           },
           {
             "shape": "trust-boundary-curve",
@@ -1067,11 +1131,25 @@
                 "y": 252
               },
               {
+                "x": 952,
+                "y": 380
+              },
+              {
                 "x": 972,
                 "y": 402
               }
             ],
-            "zIndex": 11
+            "zIndex": 11,
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead"
+              ],
+              "name": null
+            }
           }
         ]
       }
