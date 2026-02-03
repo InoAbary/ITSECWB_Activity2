@@ -770,15 +770,25 @@
             "labels": [
               "Data Flow"
             ],
-            "id": "62d47688-c724-4b83-89a8-0eab4d07c63c",
+            "id": "a026a5f1-aefb-4429-ad00-cf50473ccb33",
             "source": {
-              "x": 183,
-              "y": 424
+              "cell": "a6f342b6-35fa-4027-a79a-61373bf09e3e",
+              "port": "e6b0460c-0ac2-4948-a26c-d1aeb7cf8a42"
             },
             "target": {
-              "x": 280,
-              "y": 420
+              "cell": "08e968a4-27c5-463f-8631-4dc601ced1d9",
+              "port": "c20d1a3a-eb85-47b6-841d-3c155a9cdfab"
             },
+            "vertices": [
+              {
+                "x": 290,
+                "y": 540
+              },
+              {
+                "x": 290,
+                "y": 452
+              }
+            ],
             "tools": {
               "items": [
                 "boundary",
@@ -816,16 +826,6 @@
             "target": {
               "x": 562,
               "y": 532
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead"
-              ],
-              "name": null
             },
             "vertices": [
               {
