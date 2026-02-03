@@ -449,8 +449,8 @@
           },
           {
             "position": {
-              "x": 722,
-              "y": 14
+              "x": 720,
+              "y": 0
             },
             "size": {
               "width": 150,
@@ -729,6 +729,13 @@
                 "denialOfService": 0,
                 "elevationOfPrivilege": 0
               }
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           },
           {
@@ -1231,11 +1238,11 @@
             "vertices": [
               {
                 "x": 1010,
-                "y": 130
+                "y": 110
               },
               {
-                "x": 960,
-                "y": 130
+                "x": 950,
+                "y": 110
               }
             ]
           },
