@@ -290,11 +290,11 @@
           {
             "position": {
               "x": 330,
-              "y": 424
+              "y": 414.0000000000001
             },
             "size": {
-              "width": 112.5,
-              "height": 60
+              "width": 240,
+              "height": 90
             },
             "attrs": {
               "text": {
@@ -420,16 +420,23 @@
                 "spoofing": 2,
                 "repudiation": 0
               }
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           },
           {
             "position": {
-              "x": 13,
-              "y": 424
+              "x": -97,
+              "y": 409
             },
             "size": {
-              "width": 112.5,
-              "height": 60
+              "width": 250,
+              "height": 90
             },
             "attrs": {
               "text": {
