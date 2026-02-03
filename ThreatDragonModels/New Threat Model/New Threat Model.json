@@ -770,13 +770,13 @@
             "labels": [
               "Data Flow"
             ],
-            "id": "7dfe5218-54e5-49c5-a49e-40897ce4af6f",
+            "id": "1a4612b4-adb2-46f6-b52e-fae4c943629c",
             "source": {
-              "x": 140,
+              "x": 166,
               "y": 570
             },
             "target": {
-              "x": 240,
+              "x": 266,
               "y": 670
             }
           },
@@ -806,6 +806,16 @@
             "target": {
               "x": 562,
               "y": 532
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead"
+              ],
+              "name": null
             },
             "vertices": [
               {
