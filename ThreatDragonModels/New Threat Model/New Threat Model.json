@@ -754,7 +754,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "User Sends User Credentials",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -768,16 +768,32 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Data Flow"
+              "User Sends User Credentials"
             ],
             "id": "1a4612b4-adb2-46f6-b52e-fae4c943629c",
             "source": {
-              "x": 166,
-              "y": 570
+              "x": 186,
+              "y": 430
             },
             "target": {
-              "x": 266,
-              "y": 670
+              "x": 280,
+              "y": 430
+            },
+            "vertices": [
+              {
+                "x": 210,
+                "y": 430
+              }
+            ],
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead"
+              ],
+              "name": null
             }
           },
           {
