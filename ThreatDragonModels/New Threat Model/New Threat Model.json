@@ -303,8 +303,8 @@
           },
           {
             "position": {
-              "x": 751,
-              "y": 47
+              "x": 750.75,
+              "y": 27
             },
             "size": {
               "width": 112.5,
@@ -315,8 +315,8 @@
                 "text": "Authorization Provider"
               },
               "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               }
             },
@@ -413,16 +413,173 @@
               "isTrustBoundary": false,
               "outOfScope": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "providesAuthentication": false,
-              "threats": []
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
+              "threats": [
+                {
+                  "id": "734f0d41-2d9f-41fd-9490-a2a28c339cfc",
+                  "title": "Elevation of Privilege",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "",
+                  "description": "No suggestions available for this context. Add one manually please",
+                  "mitigation": "",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 12,
+                  "score": ""
+                }
               ],
-              "name": null
+              "threatFrequency": {
+                "spoofing": 0,
+                "repudiation": 0
+              }
+            }
+          },
+          {
+            "position": {
+              "x": 1083,
+              "y": 265
+            },
+            "size": {
+              "width": 120,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "SQL Database"
+              },
+              "topLine": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "strokeDasharray": null
+              },
+              "bottomLine": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "store",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "e4790e1e-f566-43b5-a252-63862d84174d"
+                },
+                {
+                  "group": "right",
+                  "id": "26cfd7b7-0bad-4286-a786-182213b562b6"
+                },
+                {
+                  "group": "bottom",
+                  "id": "44f6b09c-377e-42c1-909f-5bbf4c74d2ea"
+                },
+                {
+                  "group": "left",
+                  "id": "5cc3ab29-57aa-471c-9a00-e0cf91610502"
+                }
+              ]
+            },
+            "id": "4a111700-5c6b-4323-b860-4739f54b712b",
+            "zIndex": 4,
+            "data": {
+              "type": "tm.Store",
+              "name": "SQL Database",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "isALog": false,
+              "isEncrypted": false,
+              "isSigned": false,
+              "storesCredentials": false,
+              "storesInventory": false,
+              "threats": [
+                {
+                  "id": "4cb6934d-dbc8-49cd-b41d-3ab25f7053c8",
+                  "title": "Tampering With The Data Using The SQL Injection Attack",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Tampering",
+                  "description": "",
+                  "mitigation": "",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 14,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "tampering": 1,
+                "repudiation": 0,
+                "informationDisclosure": 0,
+                "denialOfService": 0
+              }
             }
           }
         ]
@@ -430,6 +587,6 @@
     ],
     "diagramTop": 4,
     "reviewer": "",
-    "threatTop": 11
+    "threatTop": 14
   }
 }
