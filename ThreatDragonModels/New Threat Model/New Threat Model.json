@@ -770,34 +770,14 @@
             "labels": [
               "Data Flow"
             ],
-            "id": "a026a5f1-aefb-4429-ad00-cf50473ccb33",
+            "id": "7dfe5218-54e5-49c5-a49e-40897ce4af6f",
             "source": {
-              "cell": "a6f342b6-35fa-4027-a79a-61373bf09e3e",
-              "port": "e6b0460c-0ac2-4948-a26c-d1aeb7cf8a42"
+              "x": 140,
+              "y": 570
             },
             "target": {
-              "cell": "08e968a4-27c5-463f-8631-4dc601ced1d9",
-              "port": "c20d1a3a-eb85-47b6-841d-3c155a9cdfab"
-            },
-            "vertices": [
-              {
-                "x": 290,
-                "y": 540
-              },
-              {
-                "x": 290,
-                "y": 452
-              }
-            ],
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead"
-              ],
-              "name": null
+              "x": 240,
+              "y": 670
             }
           },
           {
