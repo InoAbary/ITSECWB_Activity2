@@ -776,20 +776,10 @@
               "y": 430
             },
             "target": {
-              "x": 280,
-              "y": 410
+              "cell": "a6f342b6-35fa-4027-a79a-61373bf09e3e",
+              "port": "29dd0104-06d0-4d5b-83da-484896be4c46"
             },
-            "vertices": [],
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead"
-              ],
-              "name": null
-            }
+            "vertices": []
           },
           {
             "shape": "trust-boundary-curve",
