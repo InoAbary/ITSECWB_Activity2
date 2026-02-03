@@ -1150,6 +1150,7 @@
             "shape": "trust-boundary-curve",
             "width": 200,
             "height": 100,
+            "zIndex": 11,
             "connector": "smooth",
             "data": {
               "type": "tm.Boundary",
@@ -1181,8 +1182,7 @@
                 "x": 952,
                 "y": 380
               }
-            ],
-            "zIndex": 11
+            ]
           },
           {
             "shape": "flow",
@@ -1204,7 +1204,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "Verified",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1218,17 +1218,26 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Data Flow"
+              "Verified"
             ],
             "id": "a3ab2ac2-469e-4d0d-b425-42efca24ad25",
             "source": {
-              "x": 1170,
-              "y": 80
+              "cell": "8c098322-0e31-4d4d-8a18-7145c9420658"
             },
             "target": {
-              "x": 880,
-              "y": 130
-            }
+              "cell": "a4348fde-cc3d-41e5-83f0-cca3372f0ec3",
+              "port": "1a1254a7-4833-4ea7-8cbd-14487a58f785"
+            },
+            "vertices": [
+              {
+                "x": 1010,
+                "y": 130
+              },
+              {
+                "x": 960,
+                "y": 130
+              }
+            ]
           }
         ]
       }
