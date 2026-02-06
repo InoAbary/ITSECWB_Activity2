@@ -462,7 +462,7 @@
           {
             "position": {
               "x": 712,
-              "y": -10
+              "y": 0
             },
             "size": {
               "width": 150,
@@ -889,7 +889,7 @@
             },
             "vertices": [
               {
-                "x": 550,
+                "x": 510,
                 "y": 340
               },
               {
@@ -1325,8 +1325,67 @@
             },
             "vertices": [
               {
-                "x": 790,
-                "y": 180
+                "x": 650,
+                "y": 130
+              },
+              {
+                "x": 770,
+                "y": 150
+              },
+              {
+                "x": 820,
+                "y": 150
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 14,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Verified",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Verified"
+            ],
+            "id": "72ca0acf-fbd1-4fbd-8c26-9ad7fcde611c",
+            "source": {
+              "cell": "a4348fde-cc3d-41e5-83f0-cca3372f0ec3"
+            },
+            "target": {
+              "cell": "9c7f9061-c871-4dce-b91f-2e7d34086970",
+              "port": "b040f215-cb42-4033-a199-f70055f9c6d6"
+            },
+            "vertices": [
+              {
+                "x": 800,
+                "y": 224
               }
             ]
           }
